@@ -1,0 +1,55 @@
+.education {
+    background: white;
+    padding-bottom: 3rem;
+}
+.education .container {
+    max-width: 900px;
+}
+.education .container h2 {
+    text-align: center;
+    color: black;
+    margin-bottom: 3rem;
+}
+.education .container .education-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 0.15rem 0.6rem rgba(43, 52, 56, 0.15);
+    padding: 40px;
+    border-radius: 3px;
+}
+.education .container .education-card > *:last-child {
+    margin-top: 40px;
+}
+@media (max-width: 500px) {
+    .education .container .education-card {
+        padding: 20px;
+   }
+}
+.education .container .education-card .education-card-column {
+    display: flex;
+}
+.education .container .education-card .education-card-column .card-column-image {
+    flex: 0 0 20%;
+}
+.education .container .education-card .education-card-column .card-column-image img {
+    width: 100%;
+}
+.education .container .education-card .education-card-column .card-column-large {
+    flex: 0 0 80%;
+    padding-left: 1.5rem;
+}
+.education .container .education-card .education-card-column .card-column-large > * {
+    margin: 0.25rem 0;
+}
+.education .container .education-card .education-card-column .card-column-large h4 {
+    font-weight: normal;
+}
+.education .container .education-card .education-card-column .card-column-large ul {
+    padding-left: 1.5rem;
+}
+.education .container .education-card .education-card-column .card-column-large hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin-top: 40px;
+}
